@@ -23,6 +23,7 @@ Se proporciona un ejecutable llamado "app" que acepta una lista de enteros separ
 
 ## Resultados
 El proceso implica la generación de gráficas que ilustren el tiempo de ejecución de cada algoritmo en relación con el tamaño de la lista de entrada (n). Se planea utilizar conjuntos de datos de diversos tamaños con el objetivo de evaluar cómo cada algoritmo se desempeña y escala con n.
+
 ![grafica2](https://github.com/pittcam/Taller2/assets/140974091/c0bd65c2-5f22-4163-8eef-53c9c95e49fd)
 ![grafica1](https://github.com/pittcam/Taller2/assets/140974091/573b7f06-94e9-4be2-aa59-45001f34baef)
 ![grafica3](https://github.com/pittcam/Taller2/assets/140974091/6aa3fcb5-a048-4343-97cc-3284d71a2727)
