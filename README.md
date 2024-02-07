@@ -20,8 +20,8 @@ El código debe ser ejecutado por línea de comandos con la siguiente linea:
 ## Resultados
 El proceso implica la generación de gráficas que ilustren el tiempo de ejecución de cada algoritmo en relación con el tamaño de la lista de entrada (n). Se planea utilizar conjuntos de datos de diversos tamaños con el objetivo de evaluar cómo cada algoritmo se desempeña y escala con n.
 
-Para la primera gráfica, 
 ![WhatsApp Image 2024-02-07 at 8 36 00 AM](https://github.com/pittcam/Taller2/assets/140974091/c8328aca-9e44-433b-8557-d9607f59ab53)
+Para la gráfica, el código trabajó con
 
 
 
