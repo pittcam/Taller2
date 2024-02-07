@@ -32,3 +32,24 @@ def encontrar_pares_exponencial(arreglo, objetivo):
                 tiempos.append(time.time() - start_time)
 
     return pares, tiempos
+def encontrar_pares_logn(arreglo, objetivo):
+    arreglo.sort()
+    izquierda, derecha = 0, len(arreglo) - 1
+    pares = []
+    tiempos = []
+    start_time = time.time()
+
+    while izquierda < derecha:
+        suma_actual = arreglo[izquierda] + arreglo[derecha]
+
+        if suma_actual == objetivo:
+            pares.append((arreglo[izquierda], arreglo[derecha]))
+            tiempos.append(time.time() - start_time)
+            izquierda += 1
+            derecha -= 1
+        elif suma_actual < objetivo:
+            izquierda += 1
+        else:
+            derecha -= 1
+
+    return pares, tiempos
