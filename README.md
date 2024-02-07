@@ -1,4 +1,4 @@
-# Taller2
+# Taller 2
 
 Este taller tiene como objetivo desarrollar una función eficiente en Python que encuentre pares de enteros en una lista cuya suma sea igual a un valor dado. La función tomará como entrada la lista de números y la suma objetivo, devolviendo los pares encontrados.
 
