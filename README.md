@@ -13,3 +13,6 @@ El algoritmo tenga una complejidad menor que O(n^2).
 ## Requisitos Adicionales
 - El código debe ser eficiente y superar la complejidad de O(n^2).
 - No se requiere la implementación de mecanismos de entrada/salida idénticos a los de la aplicación de ejemplo.
+- Realizar tresalgoritmos con complejidad exponencial, lineal y constante en función de cuál es más eficiente mediante gráficas.
+
+## Resultados
