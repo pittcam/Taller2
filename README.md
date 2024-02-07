@@ -16,7 +16,10 @@ Se proporciona un ejecutable llamado "app" que acepta una lista de enteros separ
 ## Resultados
 El proceso implica la generación de gráficas que ilustren el tiempo de ejecución de cada algoritmo en relación con el tamaño de la lista de entrada (n). Se planea utilizar conjuntos de datos de diversos tamaños con el objetivo de evaluar cómo cada algoritmo se desempeña y escala con n.
 
-![WhatsApp Image 2024-02-07 at 8 36 00 AM](https://github.com/pittcam/Taller2/assets/140974091/c8328aca-9e44-433b-8557-
+![grafica1](https://github.com/pittcam/Taller2/assets/140974091/573b7f06-94e9-4be2-aa59-45001f34baef)
+![grafica2](https://github.com/pittcam/Taller2/assets/140974091/c0bd65c2-5f22-4163-8eef-53c9c95e49fd)
+![grafica3](https://github.com/pittcam/Taller2/assets/140974091/6aa3fcb5-a048-4343-97cc-3284d71a2727)
+
 
 El código implementa tres funciones diferentes (encontrar_pares_lineal, encontrar_pares_exponencial, y encontrar_pares_logn) para encontrar pares de números en un arreglo que suman un objetivo dado. Además, el programa permite generar un arreglo aleatorio, mostrarlo, y luego ejecutar cada función para encontrar los pares. También ofrece una opción para comparar los tiempos de ejecución acumulados de estas funciones y graficarlos.
 
@@ -34,7 +37,7 @@ Análisis: Utiliza dos bucles anidados para comparar todas las combinaciones pos
 ### Complejidad: O(n log n)
 La función utiliza la técnica de búsqueda binaria después de ordenar el arreglo. El tiempo de ejecución se ve dominado por el costo de la clasificación, que es O(n log n) en el peor caso. 
 
-En base al análisis de complejidad y la gráfica, que analiza el comportamiento de los tres algoritmos con un tamaño de arreglo de más de 4000 datos. El algoritmo más eficiente es el de complejidad O(log(n), es decir, la función encontrar_pares_logn. Esta función tiene un rendimiento constante y tiende a ser más eficiente en términos de tiempo de ejecución para conjuntos de datos más grandes en comparación con las otras dos funciones. Luego, sigue el algoritmo lineal y por último y más ineficiente, el exponencial, que toma el doble de tiempo en ejecutarse que los otros dos.
+En base al análisis de complejidad y la gráficas, que analiza el comportamiento de los tres algoritmos con un tamaño de arreglo de más de 300, 2500 y 4000 números. El algoritmo más eficiente es el de complejidad O(log(n), es decir, la función encontrar_pares_logn. Esta función tiene un rendimiento constante y tiende a ser más eficiente en términos de tiempo de ejecución para conjuntos de datos más grandes en comparación con las otras dos funciones. Luego, sigue el algoritmo lineal y por último y más ineficiente, el exponencial, que toma el doble de tiempo en ejecutarse que los otros dos.
 
 
 
