@@ -96,3 +96,17 @@ def menu():
         pares_lineal, tiempos_lineal = encontrar_pares_lineal(arreglo, objetivo)
         pares_exponencial, tiempos_exponencial = encontrar_pares_exponencial(arreglo, objetivo)
         pares_logn, tiempos_logn = encontrar_pares_logn(arreglo, objetivo)
+
+
+        # Verificar y ajustar las listas de tiempos para que tengan la misma longitud
+        max_len = min(len(tiempos_lineal), len(tiempos_exponencial), len(tiempos_logn))
+        tiempos_lineal = tiempos_lineal[:max_len]
+        tiempos_exponencial = tiempos_exponencial[:max_len]
+        tiempos_logn = tiempos_logn[:max_len]
+
+        graficar_tiempos_acumulados([tiempos_lineal, tiempos_exponencial, tiempos_logn], ['Lineal', 'Exponencial', 'O(log n)'])
+      else:
+          print("Opción no válida. Intente de nuevo.")
+
+if __name__ == "__main__":
+    menu()
