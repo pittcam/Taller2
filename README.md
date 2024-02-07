@@ -5,7 +5,7 @@ Este taller tiene como objetivo desarrollar una función eficiente en Python que
 ## Descripción del Problema
 Se proporciona un ejecutable llamado "app" que acepta una lista de enteros separados por comas y el entero de destino como argumentos de línea de comandos. La tarea consiste en implementar una función que realice la búsqueda de pares dentro de la lista, garantizando que:
 
-El algoritmo tenga una complejidad menor que O(n^2).
+- El algoritmo tenga una complejidad menor que O(n^2).
 - Se manejen correctamente todos los casos de borde.
 - La entrada se asume como una lista de enteros sin repeticiones.
 - La implementación debe ser eficiente y devolver resultados correctos para todas las entradas posibles.
