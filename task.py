@@ -53,3 +53,13 @@ def encontrar_pares_logn(arreglo, objetivo):
             derecha -= 1
 
     return pares, tiempos
+
+def graficar_tiempos_acumulados(tiempos, nombres):
+  plt.figure(figsize=(10, 6))
+  for i, tiempos_funcion in enumerate(tiempos):
+      plt.plot(tiempos_funcion, label=nombres[i])
+  plt.title('Comparación de Tiempo Acumulado de Ejecución')
+  plt.xlabel('Número de Pares Encontrados')
+  plt.ylabel('Tiempo Acumulado (segundos)')
+  plt.legend()
+  plt.show()
