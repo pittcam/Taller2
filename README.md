@@ -2,6 +2,14 @@
 
 Este taller tiene como objetivo desarrollar una función eficiente en Python que encuentre pares de enteros en una lista cuya suma sea igual a un valor dado. La función tomará como entrada la lista de números y la suma objetivo, devolviendo los pares encontrados.
 
+## Integrantes:
+- Maikol Vergara
+- Juan Perez
+- Juan Barajas
+- Juliana Castro
+- Valentina León
+- Lukas Rodríguez
+
 ## Descripción del Problema
 Se proporciona un ejecutable llamado "app" que acepta una lista de enteros separados por comas y el entero de destino como argumentos de línea de comandos. La tarea consiste en implementar una función que realice la búsqueda de pares dentro de la lista, garantizando que:
 
